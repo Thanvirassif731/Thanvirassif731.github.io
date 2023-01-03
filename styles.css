@@ -1,11 +1,17 @@
 body {
-    background-image: url(https://i.postimg.cc/MKM92bzJ/139745-electronics-light-stage-design-technology-4096x2725.jpg);
+    /*background-image: url();
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover;*/
+    background-color: #e7717d;
+
 }
 
 main {
   margin-top: 0;
+}
+
+.profile {
+    border-radius: 50px;
 }
 
 .heading {
@@ -15,8 +21,16 @@ main {
     border-radius: 0%;
 }
 
-h1, h2 {
+.color1 {
+    background-color: #85dcb8;
+    padding-top: 20px;
+    padding: 20px;
+    border-radius: 100px;
+}
+
+h1, h2, h3 {
     text-align: center;
+    text-shadow: 1px 1px 10px #f78181;
 }
 
 div {
@@ -36,10 +50,8 @@ div {
     align-items: center;
 }
 
-.act {
-    
-    height: 150px;  
-    width: 150px;
+.OAct {
+    align-items: center;
 }
 
 .social {
@@ -48,26 +60,32 @@ div {
 
 .check {
     text-align: center;
+    background-color: #85dcb8;
+    padding: 20px;
+    border-radius: 100px;
 }
 
 .resume {
     background-color: rgb(246, 173, 241);
+    border-radius: 10px;
     width: 100px;
-    height: 25px;
+    height: 35px;
     margin-bottom: 5px;
     
 }
 
 a {
     color: rgba(38, 255, 0, 0.475);
+    text-decoration: none;
+    font-weight: bold;
   }
   
   a:visited {
-    color: rgb(249, 3, 3);
+    color: rgb(13, 13, 13);
   }
   
   a:hover {
-    color: rgb(255, 0, 0);
+    color: rgb(127, 127, 127);
   }
   
   a:active {
